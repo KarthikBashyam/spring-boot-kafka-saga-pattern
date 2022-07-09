@@ -12,6 +12,8 @@
 		<module>order-service/order-container</module>
 		<module>order-service/order-domain/order-domain-core</module>
 		<module>order-service/order-domain/order-application-service</module>
+		<module>common</module>
+		<module>common/common-domain</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -64,7 +66,7 @@
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<artifactId>order-data-access</artifactId>
+				<artifactId>order-dataaccess</artifactId>
 				<groupId>com.example</groupId>
 				<version>${project.version}</version>
 			</dependency>
@@ -77,6 +79,11 @@
 				<artifactId>order-messaging</artifactId>
 				<groupId>com.example</groupId>
 				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.example</groupId>
+				<artifactId>common-domain</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

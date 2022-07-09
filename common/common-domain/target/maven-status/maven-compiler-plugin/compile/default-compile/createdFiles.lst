@@ -1,0 +1,9 @@
+com/example/system/domain/valueobject/OrderStatus.class
+com/example/system/domain/valueobject/OrderId.class
+com/example/system/domain/valueobject/Money.class
+com/example/system/domain/valueobject/CustomerId.class
+com/example/system/domain/valueobject/BaseId.class
+com/example/system/domain/entity/AggregateRoot.class
+com/example/system/domain/event/DomainEvent.class
+com/example/system/domain/valueobject/ProductId.class
+com/example/system/domain/entity/BaseEntity.class
